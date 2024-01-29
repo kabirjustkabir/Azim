@@ -1,0 +1,56 @@
+.certificateParent {
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.techstack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.tech {
+  display: grid;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.certificateContainer {
+  margin: 2rem 0 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+@media only screen and (max-width:750px){
+  .tech {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width:700px){
+  .tech {
+    width: 95%;
+  }
+}
+@media only screen and (max-width:550px){
+  .tech {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media only screen and (max-width:440px){
+  .tech {
+    grid-template-columns: 1fr 1fr;
+  }
+}

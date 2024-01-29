@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    background-color: #050505;
+    color: #fff;
+}
+
+.CerSection {
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 110vh;
+}
+.AboutSection {
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 100vh;
+}
+.HomeSection{
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 100vh;
+}
+.ProjectSection {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+@media only screen and (max-width:755px){
+    .CerSection{
+        height: auto;
+    }
+}
